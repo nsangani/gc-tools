@@ -1,0 +1,17 @@
+name: Sum Three Numbers
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  run-sum:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sum three numbers
+        run: python -c "a=10; b=20; c=30; print(a + b + c)"
