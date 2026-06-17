@@ -1,0 +1,13 @@
+>seq1_high_gc Example sequence with high GC content
+GCGCGCATGCGCGCATGCGCGCATGC
+GCGCATGCGCGCATGCGCGCATGCGC
+>seq2_balanced Example sequence with roughly balanced bases
+ATGCATGCATGCATGCATGCATGCAT
+GCATGCATGCATGCATGCATGCATGC
+>seq3_low_gc Example sequence with low GC content
+ATATATATATATATATATATATATAT
+ATATTTAAATATATATATATATATAT
+>seq4_short A short sequence on a single line
+ATGCGC
+>seq5_with_ambiguity Sequence containing an ambiguous base (N)
+ATGCNNATGCATGCNATGCATGCATGC
